@@ -1,0 +1,35 @@
+funciones de comandos - practica 2 - ejemplos
+
+ls −l > prueba: Lista los archivos del directorio actual con detalle y redirige la salida al archivo "prueba".
+
+ps > PRUEBA: Muestra los procesos actuales y redirige la salida al archivo "PRUEBA".
+
+chmod 710 prueba: Cambia los permisos del archivo "prueba" a 710 (propietario puede leer, escribir y ejecutar; grupo puede ejecutar; otros no tienen permisos).
+
+chown root:root PRUEBA: Intenta cambiar el propietario del archivo "PRUEBA" a root, pero fallará si no se ejecuta como root.
+
+chmod 777 PRUEBA: Cambia los permisos del archivo "PRUEBA" a 777 (todos pueden leer, escribir y ejecutar).
+
+chmod 700 /etc/passwd: Intenta cambiar los permisos del archivo "/etc/passwd", pero fallará si no se ejecuta como root.
+
+passwd root: Intenta cambiar la contraseña del usuario root, pero fallará si no se ejecuta como root.
+
+rm PRUEBA: Elimina el archivo "PRUEBA".
+
+man /etc/shadow: Intenta mostrar el manual del archivo "/etc/shadow", pero fallará ya que "/etc/shadow" no es un comando.
+
+find / −name ∗.conf: Busca todos los archivos con extensión ".conf" en el sistema.
+
+usermod root -d /home/newroot -L: Intenta cambiar el directorio home del usuario root y bloquear su cuenta, pero fallará si no se ejecuta como root.
+
+cd /root: Intenta ingresar al directorio home de root, pero fallará si no se tiene permiso.
+
+rm *: Elimina todos los archivos en el directorio actual.
+
+cd /etc: Cambia al directorio "/etc".
+
+cp * /home -R: Intenta copiar todos los archivos y directorios desde "/etc" a "/home", pero puede fallar si hay problemas de permisos.
+
+shutdown: Intenta apagar el sistema, pero fallará si no se ejecuta como root.
+
+

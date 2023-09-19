@@ -1,0 +1,52 @@
+comandos
+
+mas usados:
+
+1. DIRECTORIOS
+
+A -mas usados:
+- ls: listar el contenido de un archivo
+- pwd : me muestra el directorio actual
+- cd: Cambia el directorio actual.
+- mkdir: Crea un nuevo directorio.
+- du: Muestra el uso de disco de un archivo o directorio.
+- rmdir: Elimina un directorio vacío.
+- pwd: Muestra el directorio de trabajo actual.
+- cp: Copia archivos o directorios.
+- mv: Mueve o renombra archivos o directorios.
+ 
+
+B -menos usados:
+- umount: Desmonta sistemas de archivos.
+- mount: Monta sistemas de archivos.
+- df: Muestra el uso de disco de sistemas de archivos.
+- ln: Crea enlaces entre archivos.
+
+
+2. PROCESOS
+
+- ps: Muestra una instantánea de los procesos actuales.
+- kill: Envia señales a procesos.
+- pstree: Muestra una estructura de árbol de los procesos.
+- killall: Mata procesos por nombre.
+- top: Muestra una actualización en tiempo real de los procesos.
+- htop: igual que top pero con una interfaz de usuario mas amigable
+- nice: Cambia la prioridad de ejecución de un proceso.
+
+3. ARCHIVOS
+
+- tar: Herramienta para empaquetar o desempaquetar archivos.
+- grep: Busca patrones específicos dentro de archivos.
+- gzip: Comprime o descomprime archivos usando el algoritmo GZIP.
+- zgrep: Igual que grep pero para archivos comprimidos.
+- wc: Cuenta palabras, líneas y caracteres en archivos.
+
+- echo "hola" > arch : crea un archivo
+
+- chmod +x nombrearchivo : le doy permisos de ejecucion
+- chmod -x nombreArchivo: le saco los permisos de ejecucion
+
+
+
+
+

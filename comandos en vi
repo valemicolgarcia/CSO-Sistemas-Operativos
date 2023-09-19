@@ -1,0 +1,8 @@
+
+comandos utiles en vi
+
+- :w -- guardar
+- :q -- salir
+- :wq -- guardar y salir
+- i -- entrar en modo insercion
+- Esc -- volver al modo normal  
