@@ -1,0 +1,13 @@
+CONCEPTOS
+
+- FUERTEMENTE TIPADO
+
+Un lenguaje de programación "fuertemente tipado" impone reglas estrictas sobre cómo los diferentes tipos de datos pueden interactuar y no permite conversiones automáticas entre ellos. 
+
+- DEBILMENTE TIPADO
+
+Un lenguaje "débilmente tipado" es más flexible y permite operaciones entre tipos de datos de manera menos restrictiva. 
+
+SHELL - NO ES FUERTEMENTE TIPADO
+--> shell es debilmente tipado o dinamicamente tipado
+Las variables en shell se tratan como cadenas de caracteres, independientemente si tienen numeros, caracteres o cadenas de textos
