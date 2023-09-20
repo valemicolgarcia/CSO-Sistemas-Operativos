@@ -1,6 +1,0 @@
-Instalacion de vim
-
-sudo apt update
-sudo apt upgrade
-
-sudo apt install vim
