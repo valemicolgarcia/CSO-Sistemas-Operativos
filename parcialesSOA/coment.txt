@@ -1,0 +1,14 @@
+
+realizar script: 
+
+- Procesar archivos de log, que reciba como argumentos una fecha y una o mas direcciones IP 
+(se encuentran en el /var/log)
+
+- Verificar que la fecha exista sino salta error
+
+- indique la cantidad de accesos que cada direccion IP ha realizado al servidor en la fecha que se recibe como primer argumento
+
+- La salida del script debe informar, utilizando dos columnas:
+columna 1 --la direccion IP 
+columna 2 --cant de accesos que se registraron desde esa direccion IP
+
